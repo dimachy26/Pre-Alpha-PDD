@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsQ">
+
+    <TextView
+        android:id="@+id/ResText"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@+id/MainBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="531dp"
+        android:gravity="center"
+        android:text="Ваш результат"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/MainBar"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="170dp"
+            android:layout_marginEnd="170dp"
+            android:gravity="center"
+            android:text="Итоги" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="127dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginBottom="272dp"
+        android:gravity="center"
+        android:text="8/8"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/anotherQ"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_gravity=""
+            android:layout_marginStart="110dp"
+            android:layout_marginBottom="3dp"
+            android:text="Выбрать другой билет" />
+
+    </LinearLayout>
+
+</RelativeLayout>
